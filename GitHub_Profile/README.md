@@ -44,7 +44,7 @@ Detailed code and documentation available in my **[Data Analytics Portfolio](htt
 - **Mobile**: +91 8303232727
 - **LinkedIn**: [linkedin.com/in/harshsingh8967/](https://www.linkedin.com/in/harshsingh8967/)
 - **Email**: [priyanshu7881@gmail.com](mailto:priyanshu7881@gmail.com)
-- **Portfolio Website**: [View Live Portfolio](https://iamharsh00.github.io/Data-Analytics-Portfolio/Portfolio/)
+- **Portfolio Website**: [View Live Portfolio](https://iamharsh00.github.io/Data-Analytics-Portfolio/)
 
 ---
 *"The goal is to turn data into information, and information into insight." – Carly Fiorina*

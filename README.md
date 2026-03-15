@@ -46,7 +46,7 @@ I am **Harsh**, a Data Analyst. I enjoy cleaning messy data and turning it into 
 ## 📄 Documents & Links
 
 - **My Resume:** [View Resume (HTML)](./Resume.html)
-- **Portfolio Website:** [Explore Portfolio Folder](./Portfolio/)
+- **Portfolio Website:** [Explore Portfolio](./index.html)
 
 ---
 
