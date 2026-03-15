@@ -1,59 +1,57 @@
 # Data Analytics Portfolio 📊
 
-Welcome to my profile. This repository contains projects where I have used Python, SQL, and various data visualization tools to solve business problems and analyze data.
+This repository contains my projects in Data Analytics and Machine Learning. I use Python, SQL, and various visualization tools to find insights and solve business problems.
 
 ---
 
 ## 👤 About Me
-I am **Harsh**, a Data Analyst. I focus on cleaning data, building models, and creating dashboards that help in making better decisions.
+I am **Harsh**, a Data Analyst. I enjoy cleaning messy data and turning it into clear dashboards and models that help businesses make better decisions.
 
 - **Email:** [priyanshu7881@gmail.com](mailto:priyanshu7881@gmail.com)
 - **LinkedIn:** [linkedin.com/in/harshsingh8967/](https://www.linkedin.com/in/harshsingh8967/)
 
 ---
 
-## 🛠️ Technical Skills
+## 🛠️ Tech Stack
 
-| Category | Tools |
-| :--- | :--- |
-| **Languages** | Python (Pandas, NumPy, Scikit-Learn), SQL |
-| **Visualization** | PowerBI, Tableau, Streamlit, Matplotlib, Seaborn |
-| **Data Science** | Machine Learning, NLP, Data Cleaning |
-| **Other Tools** | Excel, Git, Jupyter Notebook |
+- **Languages:** Python (Pandas, NumPy, Scikit-Learn), SQL
+- **Visualization:** PowerBI, Tableau, Streamlit, Matplotlib, Seaborn
+- **Skills:** Data Cleaning, Machine Learning, Sentiment Analysis, Backtesting
+- **Tools:** Git, GitHub, Jupyter Notebook, Excel
 
 ---
 
 ## 🚀 Projects
 
 ### 1. E-Commerce Churn Prediction
-- **Goal:** Find out which customers might stop using the service.
-- **What I did:** Cleaned the data, performed RFM analysis, and built a Random Forest model to predict churn.
-- **Tools:** Python, Scikit-Learn.
-- [📂 Project Folder](./1_Ecommerce_Churn_Prediction/)
+- **Goal:** Identify customers who might stop using the platform.
+- **Method:** Used RFM analysis and built a Random Forest model to predict churn.
+- **Result:** Successfully identified key factors like support tickets and satisfaction scores that lead to churn.
+- [📂 View Project](./1_Ecommerce_Churn_Prediction/)
 
-### 2. Restaurant Recommender & Sentiment Analysis
-- **Goal:** Suggest restaurants to users and analyze their reviews.
-- **What I did:** Used NLP to check if reviews are positive or negative and built a recommender system using Cosine Similarity.
-- **Tools:** Python, Streamlit, NLP.
-- [📂 Project Folder](./2_Food_Recommender_System/)
+### 2. Food Recommender & Sentiment Analysis
+- **Goal:** Help users find restaurants and understand customer feedback.
+- **Method:** Used Cosine Similarity for recommendations and NLP to check review sentiments.
+- **Result:** Created an interactive Streamlit app to show recommendations and sentiment trends.
+- [📂 View Project](./2_Food_Recommender_System/)
 
 ### 3. Stock Market Strategy Backtesting
-- **Goal:** Check if a trading strategy works using historical data.
-- **What I did:** Pulled data using an API and tested a Moving Average strategy to see its returns.
-- **Tools:** Python, Matplotlib, yfinance.
-- [📂 Project Folder](./3_Financial_Algorithmic_Trading/)
+- **Goal:** Test a trading strategy using historical stock data.
+- **Method:** Pulled data via API and tested a Moving Average Crossover strategy.
+- **Result:** Computed total returns and compared the strategy against a simple Buy & Hold approach.
+- [📂 View Project](./3_Financial_Algorithmic_Trading/)
 
 ---
 
-## 📄 Resume & Portfolio
+## 📄 Documents & Links
 
-- **Portfolio Website:** [View code here](./Portfolio/)
-- **Resume (HTML):** [Open Resume](./Resume.html)
+- **My Resume:** [View Resume (HTML)](./Resume.html)
+- **Portfolio Website:** [Explore Portfolio Folder](./Portfolio/)
 
 ---
 
-## ⚙️ How to Run
-1. Clone this repo: `git clone https://github.com/iamharsh00/Data-Analytics-Portfolio.git`
-2. Open any project folder.
-3. Install the requirements: `pip install -r requirements.txt`
-4. Run the script: `python script_name.py`
+## ⚙️ How to Use
+1. Clone the repo: `git clone https://github.com/iamharsh00/Data-Analytics-Portfolio.git`
+2. Go into any project folder.
+3. Install libraries: `pip install -r requirements.txt`
+4. Run the code: `python script_name.py`
