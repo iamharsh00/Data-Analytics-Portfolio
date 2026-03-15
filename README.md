@@ -33,7 +33,7 @@ I am **Harsh**, a Data Analyst. I enjoy cleaning messy data and turning it into 
 - **Goal:** Help users find restaurants and understand customer feedback.
 - **Method:** Used Cosine Similarity for recommendations and NLP to check review sentiments.
 - **Result:** Created an interactive Streamlit app to show recommendations and sentiment trends.
-- [📂 View Project](./2_Food_Recommender_System/)
+- [📂 View Project Code](./2_Food_Recommender_System/) | [🚀 Live App](https://data-analytics-portfolio-zzthcciwvacz5mmnggqxpa.streamlit.app/)
 
 ### 3. Stock Market Strategy Backtesting
 - **Goal:** Test a trading strategy using historical stock data.
