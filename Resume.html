@@ -84,10 +84,45 @@
             h2 { font-size: 14pt; margin-top: 15pt; }
             .item-header { font-size: 12pt; }
             ul, li, .skills-grid { font-size: 11pt; }
+            .no-print { display: none !important; }
+        }
+        /* Download Button Styling */
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #0056b3;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+            font-size: 14px;
+            border: none;
+            cursor: pointer;
+            z-index: 1000;
+            transition: background 0.3s;
+        }
+        .download-btn:hover {
+            background: #004494;
+        }
+        @media (max-width: 900px) {
+            .download-btn {
+                position: static;
+                display: block;
+                margin: 0 auto 20px auto;
+                width: max-content;
+            }
         }
     </style>
 </head>
-<body>
+<body style="position: relative;">
+
+    <!-- Download Button for Screen Only -->
+    <button class="download-btn no-print" onclick="window.print()">
+        Download as PDF <i class="fa-solid fa-download"></i>
+    </button>
 
     <!-- Header Section -->
     <h1>HARSH</h1>
