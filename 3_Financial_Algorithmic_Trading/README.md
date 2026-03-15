@@ -41,4 +41,17 @@ Quantitative Finance and Algorithmic Trading heavily rely on data manipulation t
    *The script will query Yahoo Finance, run the algorithmic calculations, log the total ROI compared to the market, and save the charts in the `/analytics_dashboard/` folder.*
 
 ---
+
+## 📈 Analytical Findings & Risk Management
+The backtest results provide critical insights into strategy performance compared to a baseline market index.
+
+### 📊 Strategy Benchmarking:
+- **Trend Following:** The SMA Crossover identifies persistent bullish trends but may experience "whipsaws" (false signals) in sideways/choppy markets.
+- **CAGR vs Volatility:** By analyzing the cumulative return curve, we can evaluate if the strategy provides better risk-adjusted returns (Sharpe Ratio) than simple holding.
+
+### ⚠️ Risk Mitigation Practices:
+1. **Look-ahead Bias Prevention:** The script shift signals by $t+1$ to ensure trades are executed at the next available price after a signal is confirmed.
+2. **Diversification:** While demonstrated on a single ticker ($AAPL$), this framework is designed to be scaled across an entire sector or index for portfolio-wide risk reduction.
+
+---
 *Developed with 💻 as part of a Data Analytics Portfolio.*

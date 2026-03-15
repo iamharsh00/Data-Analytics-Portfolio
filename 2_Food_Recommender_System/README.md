@@ -41,6 +41,14 @@ This project simulates the environment of massive food delivery aggregators like
    ```
    *This will open the highly interactive web dashboard in your default browser.*
 
-## 🏆 Key Features Demonstrated
+## 🏆 Key Features & AI Logic
 1. **Content-Based Recommender:** Converts textual features (Cuisines and Cost tags) into numerical TF-IDF matrices, then computes the `Cosine Similarity` between restaurants to surface the 5 most statistically similar options.
 2. **Review Aggregation & Dashboards:** Clean, interactive UI metrics that quickly display market summaries without needing complex BI software.
+
+### 🧠 The Math Behind the Magic:
+The system calculates the angle between multi-dimensional restaurant vectors:
+$$\text{Similarity} = \cos(\theta) = \frac{\mathbf{A} \cdot \mathbf{B}}{\|\mathbf{A}\| \|\mathbf{B}\|}$$
+High similarity scores (closer to 1.0) indicate that two restaurants share high-overlap in cuisine and pricing profiles, ensuring relevant recommendations.
+
+### 🏢 Industry Application:
+This architecture mirrors production systems used to solve the **"Cold Start" problem** in recommendation engines, where collaborative filtering (user-item) is unavailable for new users or items.

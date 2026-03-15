@@ -329,17 +329,24 @@ nav.scrolled {
     border-color: rgba(255,255,255,0.15);
 }
 
-.project-img-placeholder {
+.project-img {
     height: 220px;
+    overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
 }
 
-.gradient-bg-1 { background: linear-gradient(135deg, #1e3a8a, #3b82f6); }
-.gradient-bg-2 { background: linear-gradient(135deg, #831843, #ec4899); }
-.gradient-bg-3 { background: linear-gradient(135deg, #064e3b, #10b981); }
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover .project-img img {
+    transform: scale(1.1);
+}
 
 .project-info {
     padding: 25px;
