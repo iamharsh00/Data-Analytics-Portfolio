@@ -427,7 +427,30 @@ nav.scrolled {
 
 .contact-text p {
     color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+.contact-details {
     margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.contact-details p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 0px !important;
+    color: var(--text-primary);
+    font-size: 1.05rem;
+}
+
+.contact-details i {
+    color: var(--accent-1);
+    font-size: 1.1rem;
+    width: 20px;
+    text-align: center;
 }
 
 .socials {
