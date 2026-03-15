@@ -1,66 +1,59 @@
-# 📊 Data Analytics & Machine Learning Portfolio 🚀
+# Data Analytics Portfolio 📊
 
-Welcome to my professional Data Analytics portfolio! This repository is a curated collection of high-impact projects demonstrating my expertise in data manipulation, predictive modeling, and interactive visualization.
+Welcome to my profile. This repository contains projects where I have used Python, SQL, and various data visualization tools to solve business problems and analyze data.
 
 ---
 
 ## 👤 About Me
-I'm **Harsh**, a passionate Data Analytics aspirant dedicated to turning complex datasets into clear, actionable business strategies. My approach combines statistical rigor with modern AI tools to solve real-world problems.
+I am **Harsh**, a Data Analyst. I focus on cleaning data, building models, and creating dashboards that help in making better decisions.
 
-📫 **Reach me at:** [priyanshu7881@gmail.com](mailto:priyanshu7881@gmail.com)
-🔗 **Connect on:** [LinkedIn](https://www.linkedin.com/in/harshsingh8967/)
+- **Email:** [priyanshu7881@gmail.com](mailto:priyanshu7881@gmail.com)
+- **LinkedIn:** [linkedin.com/in/harshsingh8967/](https://www.linkedin.com/in/harshsingh8967/)
 
 ---
 
-## 🛠️ Technical Arsenal
+## 🛠️ Technical Skills
 
-| Category | Tools & Technologies |
+| Category | Tools |
 | :--- | :--- |
 | **Languages** | Python (Pandas, NumPy, Scikit-Learn), SQL |
 | **Visualization** | PowerBI, Tableau, Streamlit, Matplotlib, Seaborn |
-| **Data Science** | Machine Learning (Regression, Classification, Clustering), NLP |
-| **Others** | Advanced Excel, Git/GitHub, Algorithmic Backtesting |
+| **Data Science** | Machine Learning, NLP, Data Cleaning |
+| **Other Tools** | Excel, Git, Jupyter Notebook |
 
 ---
 
-## 🚀 Featured Projects
+## 🚀 Projects
 
-### 🛒 1. E-Commerce Churn Predictive Analytics
-*Predicting customer retention to drive growth.*
-- **Objective:** Identify high-risk customers likely to stop using the platform.
-- **Key Highlights:** Engineered an end-to-end ML pipeline using **Random Forest**, performed RFM (Recency, Frequency, Monetary) analysis, and visualized churn drivers.
-- **Tech:** Python, Scikit-Learn, Seaborn.
-- [📂 View Project Details](./1_Ecommerce_Churn_Prediction/)
+### 1. E-Commerce Churn Prediction
+- **Goal:** Find out which customers might stop using the service.
+- **What I did:** Cleaned the data, performed RFM analysis, and built a Random Forest model to predict churn.
+- **Tools:** Python, Scikit-Learn.
+- [📂 Project Folder](./1_Ecommerce_Churn_Prediction/)
 
-### 🍔 2. Zomato/Swiggy Recommender & NLP Analyzer
-*AI-driven food discovery and sentiment mapping.*
-- **Objective:** Suggest restaurants based on user preferences and analyze customer satisfaction sentiment.
-- **Key Highlights:** Built a **Content-Based Recommender** using Cosine Similarity and TF-IDF vectors. Deployed as an interactive **Streamlit Web App**.
-- **Tech:** NLP, Streamlit, Scikit-Learn.
-- [📂 View Project Details](./2_Food_Recommender_System/)
+### 2. Restaurant Recommender & Sentiment Analysis
+- **Goal:** Suggest restaurants to users and analyze their reviews.
+- **What I did:** Used NLP to check if reviews are positive or negative and built a recommender system using Cosine Similarity.
+- **Tools:** Python, Streamlit, NLP.
+- [📂 Project Folder](./2_Food_Recommender_System/)
 
-### 📈 3. Financial Market Algorithmic Backtester
-*Quantitative analysis for smarter trading decisions.*
-- **Objective:** Backtest a mathematical trading strategy against historical market data.
-- **Key Highlights:** Programmed a **50/200-Day SMA Crossover** strategy using `yfinance` API and benchmarked it against Buy-and-Hold performance.
-- **Tech:** Quantitative Finance, Python, Matplotlib.
-- [📂 View Project Details](./3_Financial_Algorithmic_Trading/)
+### 3. Stock Market Strategy Backtesting
+- **Goal:** Check if a trading strategy works using historical data.
+- **What I did:** Pulled data using an API and tested a Moving Average strategy to see its returns.
+- **Tools:** Python, Matplotlib, yfinance.
+- [📂 Project Folder](./3_Financial_Algorithmic_Trading/)
 
 ---
 
-## 📄 Resume & Personal Portfolio
+## 📄 Resume & Portfolio
 
-- **Personal Portfolio:** [Click here to view code](./Portfolio/) 🌐 *(Can be hosted on GitHub Pages)*
-- **ATS-Optimized Resume:** [View Resume Script](./Resume.html) 📝 *(Clean, professional, and results-oriented)*
-
----
-
-## ⚙️ Setup & Installation
-To run any of the projects locally:
-1. Clone the repository: `git clone https://github.com/iamharsh00/Data-Analytics-Portfolio.git`
-2. Navigate to the project folder.
-3. Install dependencies: `pip install -r requirements.txt`
-4. Run the main script (e.g., `python churn_analysis_pipeline.py` or `streamlit run app.py`).
+- **Portfolio Website:** [View code here](./Portfolio/)
+- **Resume (HTML):** [Open Resume](./Resume.html)
 
 ---
-*“Data is the new oil, but only if you know how to refine it.”* 💡
+
+## ⚙️ How to Run
+1. Clone this repo: `git clone https://github.com/iamharsh00/Data-Analytics-Portfolio.git`
+2. Open any project folder.
+3. Install the requirements: `pip install -r requirements.txt`
+4. Run the script: `python script_name.py`
