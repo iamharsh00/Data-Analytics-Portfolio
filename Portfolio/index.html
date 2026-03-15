@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh | Data Analyst Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo">HARSH<span>.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+        </div>
+        <div class="hero-content fade-in">
+            <span class="badge">Open to Work</span>
+            <h1 class="hero-title">Translating raw data into <span class="gradient-text">strategic decisions.</span></h1>
+            <p class="hero-subtitle">Hi, I'm Harsh. A Data Analyst specializing in building end-to-end Machine Learning pipelines, interactive dashboards, and scalable analytical solutions.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+                <!-- Link to Resume in the parent directory logically, or tell them to host it alongside -->
+                <a href="../Resume.html" target="_blank" class="btn btn-outline">Download Resume <i class="fa-solid fa-download"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container section-header slide-up">
+            <h2>Technical Arsenal</h2>
+            <p>The modern data stack tools I use to analyze and visualize complex data.</p>
+        </div>
+        <div class="container marquee-container slide-up">
+            <div class="skills-grid">
+                <div class="skill-card"><i class="fa-brands fa-python"></i> <span>Python</span></div>
+                <div class="skill-card"><i class="fa-solid fa-database"></i> <span>SQL</span></div>
+                <div class="skill-card"><i class="fa-solid fa-chart-pie"></i> <span>Tableau</span></div>
+                <div class="skill-card"><i class="fa-solid fa-chart-line"></i> <span>PowerBI</span></div>
+                <div class="skill-card"><i class="fa-solid fa-brain"></i> <span>Machine Learning</span></div>
+                <div class="skill-card"><i class="fa-brands fa-github"></i> <span>Git / GitHub</span></div>
+                <div class="skill-card"><i class="fa-solid fa-file-excel"></i> <span>Excel VBA</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container section-header slide-up">
+            <h2>Featured Projects</h2>
+            <p>End-to-End Analytics and Data Science Solutions</p>
+        </div>
+        <div class="container projects-grid">
+
+            <!-- Project 1 -->
+            <div class="project-card glass-card slide-up">
+                <div class="project-img-placeholder gradient-bg-1">
+                    <i class="fa-solid fa-users-slash fa-4x"></i>
+                </div>
+                <div class="project-info">
+                    <div class="tags">
+                        <span class="tag">Scikit-Learn</span>
+                        <span class="tag">Pandas</span>
+                        <span class="tag">Matplotlib</span>
+                    </div>
+                    <h3>E-Commerce Churn Prediction</h3>
+                    <p>Built an end-to-end Machine Learning pipeline utilizing Random Forest Classifiers to detect high-risk subscriber churn based on RFM modeling and support interaction metrics.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamharsh00/Ecommerce_Churn" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card slide-up" style="transition-delay: 100ms;">
+                <div class="project-img-placeholder gradient-bg-2">
+                    <i class="fa-solid fa-burger fa-4x"></i>
+                </div>
+                <div class="project-info">
+                    <div class="tags">
+                        <span class="tag">Streamlit</span>
+                        <span class="tag">NLP</span>
+                        <span class="tag">Cosine Similarity</span>
+                    </div>
+                    <h3>Zomato/Swiggy Recommender</h3>
+                    <p>Designed a content-based recommendation engine and NLP sentiment analysis dashboard in Streamlit to suggest restaurants and classify user feedback polarity.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamharsh00/Food_Recommender" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                        <a href="#" class="link-btn primary-link"><i class="fa-solid fa-laptop-code"></i> Live App</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card slide-up" style="transition-delay: 200ms;">
+                <div class="project-img-placeholder gradient-bg-3">
+                    <i class="fa-solid fa-money-bill-trend-up fa-4x"></i>
+                </div>
+                <div class="project-info">
+                    <div class="tags">
+                        <span class="tag">yfinance</span>
+                        <span class="tag">Algorithmic Trading</span>
+                        <span class="tag">Seaborn</span>
+                    </div>
+                    <h3>Financial Market Backtester</h3>
+                    <p>Programmed a robust algorithmic backtest for a 50-Day vs 200-Day SMA crossover strategy utilizing 8 years of live stock data, mapping out daily ROI benchmarks.</p>
+                    <div class="project-links">
+                        <a href="https://github.com/iamharsh00/Algo_Trading" class="link-btn"><i class="fa-brands fa-github"></i> Code</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container section-header slide-up">
+            <h2>Let's Connect</h2>
+            <p>I am currently seeking full-time Data Analyst roles and exciting freelance data opportunities.</p>
+        </div>
+        <div class="contact-wrapper glass-card slide-up container">
+            <div class="contact-text">
+                <h3>Reach Out</h3>
+                <p>Have a question or want to work together? Leave your details and I'll get back to you across data points.</p>
+                <div class="socials">
+                    <a href="mailto:priyanshu7881@gmail.com" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/harshsingh8967/" target="_blank" class="social-icon"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/iamharsh00" target="_blank" class="social-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <form action="https://formspree.io/f/xvgzlypy" method="POST" class="contact-form">
+                <!--  
+                ========================================================================
+                HOW TO MAKE THIS FORM WORK (Using formspree.io):
+                1. Go to https://formspree.io/ and create a free account with priyanshu7881@gmail.com
+                2. Create a "New Project/Form" in your Formspree dashboard.
+                3. Formspree will give you an endpoint URL that looks like: https://formspree.io/f/xyz123abc 
+                4. Replace the "action" link below with your new Formspree URL.
+                ========================================================================
+                -->
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="_replyto" placeholder="Your Email address" required>
+                <textarea rows="4" name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Harsh. Designed and Built for Data.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

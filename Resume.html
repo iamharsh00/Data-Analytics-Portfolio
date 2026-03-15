@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh - Data Analyst Resume</title>
+    <style>
+        /* ATS Optimized, Clean, and Professional Layout */
+        body {
+            font-family: 'Arial', 'Helvetica', sans-serif;
+            color: #333;
+            line-height: 1.5;
+            margin: 0;
+            padding: 40px;
+            background: #fff;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 5px;
+            color: #111;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .contact-info {
+            text-align: center;
+            font-size: 14px;
+            margin-bottom: 25px;
+            color: #555;
+        }
+        .contact-info a {
+            color: #0056b3;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+        h2 {
+            font-size: 18px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 3px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #222;
+            text-transform: uppercase;
+        }
+        .section-content {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+        .item-subheader {
+            font-style: italic;
+            color: #555;
+            margin-bottom: 5px;
+            font-size: 14px;
+        }
+        ul {
+            margin-top: 0;
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            row-gap: 8px;
+            font-size: 14px;
+        }
+        .skill-category {
+            font-weight: bold;
+        }
+        /* Page print settings */
+        @media print {
+            body { padding: 0; max-width: 100%; font-size: 12pt; }
+            h1 { font-size: 24pt; }
+            h2 { font-size: 14pt; margin-top: 15pt; }
+            .item-header { font-size: 12pt; }
+            ul, li, .skills-grid { font-size: 11pt; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <h1>HARSH</h1>
+    <div class="contact-info">
+        City, State &bull; (123) 456-7890 &bull; priyanshu7881@gmail.com <br>
+        <a href="https://www.linkedin.com/in/harshsingh8967/">linkedin.com/in/harshsingh8967</a> &bull; 
+        <a href="https://github.com/iamharsh00">github.com/iamharsh00</a> &bull; 
+        <a href="https://yourportfolio.com">yourportfolio.com</a>
+    </div>
+
+    <!-- Summary Section -->
+    <h2>Professional Summary</h2>
+    <div class="section-content" style="font-size: 14px;">
+        Detail-oriented data analyst with foundational expertise in Python, SQL, Machine Learning, and Data Visualization. Proven ability to write end-to-end analytical pipelines, extract actionable insights from raw data, and build predictive models to solve critical business problems. Highly motivated to leverage modern analytical tools to drive data-driven decision-making and optimize financial/operational KPIs.
+    </div>
+
+    <!-- Skills Section -->
+    <h2>Technical Skills</h2>
+    <div class="section-content skills-grid">
+        <div class="skill-category">Programming & DBs:</div>
+        <div>Python (Pandas, NumPy, Scikit-Learn), SQL (MySQL, PostgreSQL)</div>
+        
+        <div class="skill-category">Data Visualization:</div>
+        <div>Tableau, PowerBI, Streamlit, Matplotlib, Seaborn</div>
+        
+        <div class="skill-category">Analytics & ML:</div>
+        <div>Predictive Modeling, NLP Sentiment Analysis, Algorithmic Backtesting, A/B Testing, EDA</div>
+        
+        <div class="skill-category">Tools & Version Control:</div>
+        <div>Git, GitHub, Jupyter Notebook, VS Code, Excel (Advanced)</div>
+    </div>
+
+    <!-- Projects Section -->
+    <h2>Data Analytics Projects</h2>
+    
+    <!-- Project 1 -->
+    <div class="section-content">
+        <div class="item-header">
+            <span>Customer Churn Predictive Analytics (E-Commerce)</span>
+            <span>Python, Scikit-Learn, Pandas</span>
+        </div>
+        <div class="item-subheader">Machine Learning Model & EDA Pipeline</div>
+        <ul>
+            <li>Engineered an end-to-end machine learning pipeline to predict customer churn, achieving a high ROC-AUC score by tracking Recency, Frequency, and Monetary (RFM) dynamics.</li>
+            <li>Conducted comprehensive Exploratory Data Analysis (EDA) on 5,000+ subscriber records to identify that declining satisfaction score and high support ticket volume are the top predictors of churn.</li>
+            <li>Deployed an optimized Random Forest Classifier utilizing appropriate class weighting mechanics to securely handle imbalanced datasets, exporting the pipeline as a serialized pickle object.</li>
+        </ul>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="section-content">
+        <div class="item-header">
+            <span>Swiggy/Zomato Recommender System & NLP Analyzer</span>
+            <span>Streamlit, NLP, TF-IDF</span>
+        </div>
+        <div class="item-subheader">Interactive Dashboard & AI Engine</div>
+        <ul>
+            <li>Developed a content-based AI Recommendation engine capable of suggesting restaurants via Cosine Similarity calculations operating on categorical text vectors (Cuisine and Cost tags).</li>
+            <li>Processed 5,000+ simulated customer reviews utilizing Natural Language Processing (NLP) heuristics to classify market sentiment, creating an interactive Streamlit web dashboard for executive reporting.</li>
+            <li>Rendered rapid, interactive web-visualizations mapping restaurant pricing distributions against normalized aggregated customer ratings.</li>
+        </ul>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="section-content">
+        <div class="item-header">
+            <span>Algorithmic Trading & Finance Backtester</span>
+            <span>Python, yfinance, Matplotlib</span>
+        </div>
+        <div class="item-subheader">Quantitative Financial Analysis</div>
+        <ul>
+            <li>Extracted 8+ years of live historical timeseries equities data via the Yahoo Finance API (<code>yfinance</code>) to construct mathematical trading signal generations.</li>
+            <li>Programmed a robust algorithmic backtest for a 50-Day vs 200-Day Simple Moving Average (SMA) crossover strategy, mapping out actionable buy and sell triggers programmatically.</li>
+            <li>Synthesized comparative daily return vectors and cumulative portfolio ROI visualizations to benchmark the quantitative strategy directly against pure Buy-and-Hold market performance.</li>
+        </ul>
+    </div>
+
+    <!-- Education Section -->
+    <h2>Education</h2>
+    <div class="section-content">
+        <div class="item-header">
+            <span>Your University / College Name</span>
+            <span>Graduation Year</span>
+        </div>
+        <div class="item-subheader">Bachelor of [Your Degree Program, e.g., Computer Science / Statistics / Business]</div>
+        <ul>
+            <li>Relevant Coursework: Data Structures, Statistical Methods, Database Management Systems.</li>
+            <li>Extracurriculars / Awards: [Add any clubs, competitions, honors, or certificates here].</li>
+        </ul>
+    </div>
+
+</body>
+</html>
